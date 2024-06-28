@@ -122,3 +122,16 @@ A policy gradient method that optimizes a surrogate objective function via stoch
    ```bash
    git clone https://github.com/dgusain/pixel_perfect_RL.git
    cd pixel_perfect_RL
+
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv rl_env
+   source rl_env/bin/activate # On windows, use 'rl_env\Scripts\activate'
+
+3. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+
+4. Open the desired notebook: breakout_ppo.ipynb, gravitar_ppo.ipynb etc, and run the cells to execute the training and evaluation code. 
+   
+   
