@@ -1,0 +1,6 @@
+gymnasium
+seaborn
+gymnasium[atari]
+gymnasium[accept-rom-license]
+stable_baselines3
+tqdm
