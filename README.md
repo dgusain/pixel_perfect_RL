@@ -68,6 +68,8 @@ A policy gradient method that optimizes a surrogate objective function via stoch
 ### Pong-v4 DQN
 
 - **Inference**: Gradual improvement over 9000 episodes with significant variability, indicating some instability.
+- **Training Curve**:
+  ![Pong-v4 DQN Training Curve](images/pong_dqn.png)
 
 ### Pong-v4 Double DQN
 
