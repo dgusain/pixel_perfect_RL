@@ -74,18 +74,32 @@ A policy gradient method that optimizes a surrogate objective function via stoch
 ### Pong-v4 Double DQN
 
 - **Inference**: Improved and more stable performance over 5000 episodes compared to standard DQN.
+- **Training Curve**:
+  ![Pong-v4 Double DQN Training Curve](images/pong_doubledqn.png)
 
 ### PongDeterministic-v4 PPO
 
 - **Inference**: Near-optimal performance with efficient exploitation of learning signals and high evaluation scores.
+- **Training Curve**:
+  ![PongDeterministic-v4 PPO Training Curve](images/pong_deterministic_ppo.png)
+- **Evaluation**:
+  ![PongDeterministic-v4 PPO Evaluation](images/pong_deterministic_ppo_eval.png)
+
 
 ### GravitarDeterministic-v4 PPO
 
 - **Inference**: Steady increase in rewards indicating effective learning, with performance stabilizing after initial learning phase.
+- **Training Curve**:
+  ![GravitarDeterministic-v4 PPO Training Curve](images/gravitar_ppo.png)
+- **Evaluation**:
+  ![GravitarDeterministic-v4 PPO Evaluation](images/gravitar_ppo_eval.png)
 
 ### BreakoutNoFrameskip-v4 PPO
 
 - **Inference**: Significant learning observed with an upward trend in rewards, suggesting effective strategy learning.
+- **Training Curve**:
+  ![BreakoutNoFrameskip-v4 PPO Training Curve](images/breakout_ppo.png)
+
 
 ### Lunar-Lander-v2 PPO (Playground)
 
